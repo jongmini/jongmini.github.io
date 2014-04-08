@@ -49,6 +49,9 @@ nav{
 }
 
 .contact_icons {
-  border: 1px, black, solid;
   float: left;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }
