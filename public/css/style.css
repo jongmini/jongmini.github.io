@@ -43,3 +43,7 @@ nav{
   color: #ee8e85;
   outline: none;
 }
+
+.profilepic {
+  height: 50%;
+}
