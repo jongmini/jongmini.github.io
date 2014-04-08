@@ -47,3 +47,8 @@ nav{
 .profilepic {
   height: 300px;
 }
+
+.contact_icons {
+  border: 1px, black, solid;
+  float: left;
+}
