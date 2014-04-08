@@ -67,3 +67,16 @@ nav{
 .proj-img {
   border: black 1px solid;
 }
+
+div.projects {
+  color: #000;
+  border-radius: 50px;
+  padding-top: 50px;
+}
+
+.project{
+  padding: 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
