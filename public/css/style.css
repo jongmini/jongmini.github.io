@@ -48,10 +48,22 @@ nav{
   height: 300px;
 }
 
-.contact_icons {
+.screenshot {
+  height: 200px;
+}
+
+.contact-icons {
   float: left;
   background-color: black;
   height: 50px;
   width: 50px;
   margin: 10px;
+}
+
+.desc {
+  border: black 1px solid;
+}
+
+.proj-img {
+  border: black 1px solid;
 }
