@@ -62,11 +62,11 @@ nav{
 }
 
 .desc {
-  border: black 1px solid;
+  /*border: black 1px solid;*/
 }
 
 .proj-img {
-  border: black 1px solid;
+  /*border: black 1px solid;*/
 }
 
 .project{
@@ -74,6 +74,14 @@ nav{
   margin: 20px;
   height: 300px;
   background-color: #f2f2f2;
+/*  border: #66cccc 1px solid;*/
+}
+
+.panel-default > .panel-heading {
   border: #66cccc 1px solid;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  background-color: #f2f2f2;
 }
 
