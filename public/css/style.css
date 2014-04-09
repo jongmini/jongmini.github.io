@@ -1,9 +1,9 @@
 body {
-  background-color: #66cccc;
+  background-color: #f2f2f2;
 }
 
 nav{
-  background-color: #a4dba3;
+  background-color: #66cccc;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -72,6 +72,6 @@ nav{
   padding: 20px;
   margin: 20px;
   height: 300px;
-  border: 5px red solid;
+  background-color: white;
 }
 
