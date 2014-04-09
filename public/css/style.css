@@ -84,7 +84,7 @@ nav{
   background-color: #f2f2f2;
 }
 
-.panel-default {
+.panel-default > .panel-heading {
   border: #66cccc 1px solid;
 }
 
