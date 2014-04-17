@@ -122,10 +122,14 @@ nav{
   background-color: #f2f2f2;
 }
 
-#social {
+.contactme {
   margin: 10px;
   padding: 10px;
   text-align: center;
+}
 
+.social {
+  margin-right: 30px;
+  padding: 10px;
 }
 
