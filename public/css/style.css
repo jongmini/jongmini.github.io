@@ -49,6 +49,28 @@ nav{
   outline: none;
 }
 
+#first-div {
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 600px;
+}
+
+#second-div {
+  background-image:url(http://i.imgur.com/pksU2Cwl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+}
+
+#third-div {
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 600px;
+}
+
 .profilepic {
   height: 300px;
   width: 300px;
