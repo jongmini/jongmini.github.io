@@ -131,10 +131,13 @@ nav{
 .social {
   margin-right: 30px;
   padding: 10px;
+}
+
+.fa {
   color: #7f8c8d;
 }
 
-.socil :hover {
+.fa :hover {
   color: #5a6465;
 }
 
