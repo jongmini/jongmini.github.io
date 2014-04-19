@@ -68,7 +68,7 @@ nav{
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  height: 600px;
+  height: 100%;
 }
 
 #fourth-div {
@@ -76,7 +76,7 @@ nav{
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 400px;
+  height: 200px;
 }
 
 
