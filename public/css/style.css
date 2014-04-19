@@ -15,6 +15,11 @@ nav{
   z-index: 10;
 }
 
+.click-here {
+  transition: background-color 0.5s ease;
+  background-color: none;
+}
+
 .click-here:hover {
   background-color: #66cccc;
 }
@@ -23,7 +28,7 @@ a {
   text-decoration:none;
   color: #000;
 }
-a:link {
+a:link {  
   text-decoration:none;
   }    /* unvisited link */
 a:visited {text-decoration:none;} /* visited link */
