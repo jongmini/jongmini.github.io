@@ -19,9 +19,12 @@ nav{
   background-color: #66cccc;
 }
 
-a:link {
+a {
   text-decoration:none;
   color: #000;
+}
+a:link {
+  text-decoration:none;
   }    /* unvisited link */
 a:visited {text-decoration:none;} /* visited link */
 a:hover {text-decoration:none;}   /* mouse over link */
