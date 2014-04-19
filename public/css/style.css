@@ -71,6 +71,15 @@ nav{
   height: 600px;
 }
 
+#fourth-div {
+  background-image:url(http://i.imgur.com/pksU2Cwl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+}
+
+
 .profilepic {
   height: 300px;
   width: 300px;
