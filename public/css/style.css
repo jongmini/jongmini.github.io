@@ -15,14 +15,8 @@ nav{
   z-index: 10;
 }
 
-.click-here {
-  background-color: red;
-}
-
 .click-here:hover {
   background-color: #66cccc;
-/*  height: 20px;
-  width: 100%;*/
 }
 
 .navigation-bar a{
