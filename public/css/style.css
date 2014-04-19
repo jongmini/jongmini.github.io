@@ -15,6 +15,12 @@ nav{
   z-index: 10;
 }
 
+.click-here:hover {
+  background-color: #66cccc;
+  height: 20px;
+  width: 100%;
+}
+
 .navigation-bar a{
   font-size: 20px;
   padding: 5px;
