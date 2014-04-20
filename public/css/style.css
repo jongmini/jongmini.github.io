@@ -108,9 +108,17 @@ a:active {text-decoration:none;}  /* selected link */
   border-radius: 150px;
 }
 
+.profilepic:hover {
+    border: 5px solid #5a6465;
+}
+
 .screenshot {
   /*height: 200px;*/
   width: 100%;
+}
+
+.screenshot:hover {
+    border: 5px solid #5a6465;
 }
 
 .contact-icons {
