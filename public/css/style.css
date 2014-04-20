@@ -107,19 +107,19 @@ a:active {text-decoration:none;}  /* selected link */
   -moz-border-radius: 150px;
   border-radius: 150px;
 }
-
+/*
 .profilepic:hover {
-    border: 5px solid #5a6465;
-}
+  border: 5px solid #5a6465;
+}*/
 
 .screenshot {
-  /*height: 200px;*/
   width: 100%;
+/*  transition: border 0.5s ease;*/
 }
 
-.screenshot:hover {
-    border: 5px solid #5a6465;
-}
+/*.screenshot:hover {
+  border: 5px solid #5a6465;
+}*/
 
 .contact-icons {
   float: left;
