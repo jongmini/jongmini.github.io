@@ -194,11 +194,11 @@ a:active {text-decoration:none;}  /* selected link */
   color: #5a6465;
 }
 
-.resume {
-  font-weight: 100px;
-}
-
 .resume:hover {
   color: #5a6465;
+}
+
+a.social.resume {
+font-size: 30px;
 }
 
