@@ -193,15 +193,16 @@
                 <strong>Inspiration for the Project:</strong><br>
                 Raspberry Pi is a credit card-sized computer that can be used with various sensors, LEDs and other simple hardware components to build relatively simple projects. I had an interest in building a project using a Raspberry Pi because I wanted to build a web application that interacts with the physical world. <br>
                 I got the idea for the project as I thought about the plants I had neglected during the 12-week immersive course and wondered what plants would say if they could speak.<br><br>
+                <strong>Design Process:</strong><br>
+                The hardware component was a challenge because it was outside of our area of expertise. We spent the first couple of days setting up the Raspberry Pi and the analogue soil moisture sensor to measure the data properly. However, with resilience and trial-and-error, the hardware component was set up to read the soil moisture data and send the data to the server. <br><br>
 
               </div>
             </div><br><br>
             <div class="col-md-12">
               <div class="desc col-md-4">
-                <strong>Design Process:</strong><br>
-                The hardware component was a challenge because it was outside of our area of expertise. We spent the first couple of days setting up the Raspberry Pi and the analogue soil moisture sensor to measure the data properly. However, with resilience and trial-and-error, the hardware component was set up to read the soil moisture data and send the data to the server. <br>
-
-                In a typical project of similar scale, it would make sense to have a single server handle data and client interaction. However, we wanted to experiment with setting up separate servers to handle the data collection and the client interaction separately. We also decided to go away from Ruby on Rails server and decided to take on the challenge of learning how to build this project using NodeJS, a server-side application written in JavaScript, and Express. <br><br>
+              
+                In a typical project of similar scale, it would make sense to have a single server handle data and client interaction. However, we wanted to experiment with setting up separate servers to handle the data collection and the client interaction separately. We also decided to go away from Ruby on Rails server and decided to take on the challenge of learning how to build this project using NodeJS, a server-side application written in JavaScript, and Express. <br>
+                As you can see in the diagram below, the service-layer server handles the data-related logic using the PostgreSQL database. The client-layer server handles the client interaction through the browser, data logic to send a twitter notification and requests to the service-layer for appropriate data. The client-layer server stores client information in the MongoDB database. <br>
 
 <!-- more text here -->
               </div>
