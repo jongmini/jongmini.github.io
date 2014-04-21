@@ -179,16 +179,16 @@
               <div class="desc col-md-8">
                 Project Lorax has a client-side server which is built using NodeJS and MongoDB. Users can login using Twitter OAuth. A user can see their plant and its details as well as add new plants. The plant data is stored in the service-side server which is built using NodeJS and PostgreSQL. The soil moisture is controlled by the Raspberry Pi, which sends the soli data at an interval to the service-side server. Pyhton was used to write the code that controls the Raspberry Pi's behavior.
               </div>
-            </div>
+            </div><br>
             <div class="col-md-12">
-              <div class="desc col-md-offset-2 col-md-8">
+              <div class="desc col-md-4">
                 Design process:
                 The hardware component was a challenge because it was outside of our area of expertise. We spent the first couple of days setting up the Raspberry Pi and the analogue soil moisture sensor to measure the data properly. However, with resilience and trial-and-error, the hardware component was set up to read the soil moisture data and send the data to the server. 
                 In a setup this scale, it would make sense to have a single server handle both the hardware component as well as browser/client interaction. However, we wanted to experiment with setting up separate servers to handle the data collection side and the client interaction side separately. 
                 As you can see in the diagram below, the service-layer server handles the data-related logic using the PostgreSQL database. The client-side server handles the client interaction through the browser, data logic to send a twitter notification and requests to the service-layer for appropriate data to be served up to the view. The client-side server stores client information in the MongoDB database. Both servers are written using NodeJS and the browser views are served up using the BackboneJS framework. 
 
               </div>
-              <div class="pro-img col-md-offset-2 col-md-8">
+              <div class="pro-img col-md-8">
                 <img class="screenshot" src="http://i.imgur.com/DARkd14.png">
               </div>
             </div>
