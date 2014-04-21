@@ -198,3 +198,7 @@ a:active {text-decoration:none;}  /* selected link */
   color: #5a6465;
 }
 
+.resume:hover {
+  color: #5a6465;
+}
+
