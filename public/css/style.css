@@ -155,10 +155,6 @@ a:active {text-decoration:none;}  /* selected link */
   background-color: #f2f2f2;
 }
 
-/*.panel-default > .panel-heading {
-  border: #66cccc 1px solid;
-}
-*/
 .panel-default {
   border: #66cccc 1px solid;
 }
@@ -200,5 +196,9 @@ a:active {text-decoration:none;}  /* selected link */
 
 a.social.resume {
 font-size: 30px;
+}
+
+.project-title {
+  margin-top: 0;
 }
 
