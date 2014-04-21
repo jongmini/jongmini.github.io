@@ -172,8 +172,14 @@ a:active {text-decoration:none;}  /* selected link */
   margin: 10px;
   padding: 10px;
   text-align: center;
-  color: #7f8c8d;
 }
+
+/*.contactme-lg {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #66cccc;
+}*/
 
 .social {
   margin-right: 30px;
@@ -184,8 +190,8 @@ a:active {text-decoration:none;}  /* selected link */
   margin-right: 30px;
 } 
 
-.fa {
-  color: #7f8c8d;
+.icon-lg {
+  color: #66cccc;
 }
 
 .fa:hover {
