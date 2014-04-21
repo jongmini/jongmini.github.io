@@ -73,14 +73,17 @@
     <div class="projects row" id="projects">
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
-        <!-- first project -->
+        <!-- first project --------------------  BIKE THERE -->
           <div class="panel-heading">
             <div class="project col-md-12">
         <!-- description -->
               <div class="desc col-md-6">
-                <p> <h3 class="project-title"> Bike There </h3> I love riding my bicycle around the bay area. However, bike riding in San Francisco can be tricky because the hills are particularly challenging. I wanted to create an app for bike riders that show directions as well as elevation information for each routes.  Bike There is great for tourists and commuters who are looking for a safe and easy bike route. <br><br>
+                <p> <h3 class="project-title"> Bike There </h3> I love riding my bicycle around the bay area. However, bike riding in San Francisco can be tricky because the hills are particularly challenging. I wanted to create an app for bike riders that show directions as well as elevation information for each routes.  Bike There is a bicycle-commuting app that displays a turn-by-turn direction as well as elevation information along a chosen route. Bike There is great for tourists and commuters who are looking for a safe and easy bike route.  <br><br>
                   <strong> Technology</strong><br>
-                  This application is built using the Google Maps API and the Google Elevations API, Ruby on Rails, JavaScript, jQuery </p>
+                  This application is built using the Google Maps API and the Google Elevations API, Ruby on Rails, JavaScript, jQuery <br><br>
+                  <strong>Project Length</strong><br>
+                  5 days
+                </p>
               </div>
         <!-- screenshot and link -->
               <div class="proj-img col-md-6">
@@ -103,17 +106,13 @@
 
             <strong>Anything interesting about the project:</strong> <br><br>
 
-
-            <strong>Project length:</strong><br>
-            5 days
-
           </div>
         </div>
       </div>
 
       <div class="panel panel-default">
         <div class="panel-heading">
-          <!-- second project -->
+          <!-- second project -------------------- Good or Evil -->
           <div class="project col-md-12">
 
             <!-- screenshot and link -->
@@ -126,7 +125,9 @@
                   <strong> Technology</strong><br>
                   This application is built using the Amazon S3, Carrierwave, CanvasJS, Ruby on Rails, JavaScript, jQuery, AJAX <br><br>
                   <strong>Team Members</strong><br>
-                  Bruce Lee, Calvin Lam, Joel Brady
+                  Bruce Lee, Calvin Lam, Joel Brady<br><br>
+                  <strong>Project Length</strong></br>
+                  5 days
                 </p>
             </div>
           </div>
@@ -147,25 +148,24 @@
             <strong>Anything interesting about the project:</strong></br>
             This group project was an opportunity to learn about collaborative programming experience. We learned how to program collaboratively using the Github version controlling system and learned how to work through code conflicts and merges. It was a great way to understand what a real programming environment is like where many developers will work on the same project collaboratively. <br><br>
 
-            <strong>Project length:</strong></br>
-            5 days
-
           </div>
         </div>
       </div>
 
       <div class="panel panel-default">
         <div class="panel-heading">
-          <!-- third project -->
+          <!-- third project -------------------------- Project Lorax -->
           <div class="project col-md-12">
             
             <!-- description -->
             <div class="desc col-md-6">
-              <p> <h3 class="project-title"> Project Lorax </h3> <br> Project Lorax measures the soil moisture level for a plants. A user can register plants which will be monitored by the soil moisture sensor implanted in the soil. Raspberry Pi is used to send the soil data to the service layer server which collects the data. When the soil is dry the service side server will send a request to the client side server which will send a tweet to the user reminding the user to water the plant. <br><br>
+              <p> <h3 class="project-title"> Project Lorax </h3> Project Lorax monitors the soil moisture level for your plants. When the soil is dry, the app will send you a tweet notification to remind you to water your plant. <br><br>
                   <strong> Technology</strong><br>
                   This application is built using the Raspbery Pi, soil moisture sensor, ChartJS, NodeJS, Express, PostgreSQL, MongoDB, BackboneJS </strong><br><br>
                   <strong>Team Member</strong><br>
-                  Graham Wong
+                  Graham Wong <br><br>
+                  <strong>Project Length </strong><br>
+                  14 days
                 </p>
             </div>
 
@@ -190,16 +190,20 @@
                 <img class="screenshot" src="public/images/sensor.jpg">
               </div><br><br>
               <div class="desc col-md-8">
-                Project Lorax has a client-side server which is built using NodeJS and MongoDB. Users can login using Twitter OAuth. A user can see their plant and its details as well as add new plants. The plant data is stored in the service-side server which is built using NodeJS and PostgreSQL. The soil moisture is controlled by the Raspberry Pi, which sends the soli data at an interval to the service-side server. Pyhton was used to write the code that controls the Raspberry Pi's behavior.
+                <strong>Inspiration for the Project:</strong><br>
+                Raspberry Pi is a credit card-sized computer that can be used with various sensors, LEDs and other simple hardware components to build relatively simple projects. I had an interest in building a project using a Raspberry Pi because I wanted to build a web application that interacts with the physical world. <br>
+                I got the idea for the project as I thought about the plants I had neglected during the 12-week immersive course and wondered what plants would say if they could speak.<br><br>
+
               </div>
             </div><br><br>
             <div class="col-md-12">
               <div class="desc col-md-4">
-                Design process:
-                The hardware component was a challenge because it was outside of our area of expertise. We spent the first couple of days setting up the Raspberry Pi and the analogue soil moisture sensor to measure the data properly. However, with resilience and trial-and-error, the hardware component was set up to read the soil moisture data and send the data to the server. 
-                In a setup this scale, it would make sense to have a single server handle both the hardware component as well as browser/client interaction. However, we wanted to experiment with setting up separate servers to handle the data collection side and the client interaction side separately. 
-                As you can see in the diagram below, the service-layer server handles the data-related logic using the PostgreSQL database. The client-side server handles the client interaction through the browser, data logic to send a twitter notification and requests to the service-layer for appropriate data to be served up to the view. The client-side server stores client information in the MongoDB database. Both servers are written using NodeJS and the browser views are served up using the BackboneJS framework. 
+                <strong>Design Process:</strong><br>
+                The hardware component was a challenge because it was outside of our area of expertise. We spent the first couple of days setting up the Raspberry Pi and the analogue soil moisture sensor to measure the data properly. However, with resilience and trial-and-error, the hardware component was set up to read the soil moisture data and send the data to the server. <br>
 
+                In a typical project of similar scale, it would make sense to have a single server handle data and client interaction. However, we wanted to experiment with setting up separate servers to handle the data collection and the client interaction separately. We also decided to go away from Ruby on Rails server and decided to take on the challenge of learning how to build this project using NodeJS, a server-side application written in JavaScript, and Express. <br><br>
+
+<!-- more text here -->
               </div>
               <div class="pro-img col-md-8">
                 <img class="screenshot" src="http://i.imgur.com/DARkd14.png">
