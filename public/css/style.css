@@ -4,9 +4,6 @@ body {
 */  /*font-family: 'Noto Serif', serif;*/
 }
 
-.container {
-  padding: 40px 50px;
-}
 
 nav{
   background-color: #66cccc;
@@ -16,7 +13,6 @@ nav{
   height: 40px;
   z-index: 10;
 }
-
 
 .navigation-bar a{
   font-size: 20px;
@@ -50,6 +46,10 @@ nav{
 .navigation-bar a:focus{
   color: #B866CC; 
   outline: none;
+}
+
+.container {
+  padding: 40px;
 }
 
 #name {
@@ -168,10 +168,14 @@ a:active {text-decoration:none;}  /* selected link */
   background-color: #f2f2f2;
 }
 
+.contact-container{
+  padding: 40px;
+}
+
 .contactme {
   margin: 10px;
   padding: 10px;
-  padding-right: 30px;
+  text-align: right;
 }
 
 .social {
