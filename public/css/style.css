@@ -1,5 +1,7 @@
 body {
   background-color: #f2f2f2;
+/*  font-family: 'Crushed', cursive;   
+*/  /*font-family: 'Noto Serif', serif;*/
 }
 
 .container {
@@ -15,25 +17,6 @@ nav{
   z-index: 10;
 }
 
-.click-here {
-  transition: background-color 0.5s ease;
-  background-color: none;
-}
-
-.click-here:hover {
-  background-color: #66cccc;
-}
-
-a {
-  text-decoration:none;
-  color: #000;
-}
-a:link {  
-  text-decoration:none;
-  }    /* unvisited link */
-a:visited {text-decoration:none;} /* visited link */
-a:hover {text-decoration:none;}   /* mouse over link */
-a:active {text-decoration:none;}  /* selected link */
 
 .navigation-bar a{
   font-size: 20px;
@@ -69,6 +52,32 @@ a:active {text-decoration:none;}  /* selected link */
   outline: none;
 }
 
+#name {
+  text-align: left;
+  /*font-family: 'Crushed', cursive;*/
+}
+
+.click-here {
+  transition: background-color 0.5s ease;
+  background-color: none;
+}
+
+.click-here:hover {
+  background-color: #66cccc;
+}
+
+a {
+  text-decoration:none;
+  color: #000;
+}
+a:link {  
+  text-decoration:none;
+  }    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:none;}   /* mouse over link */
+a:active {text-decoration:none;}  /* selected link */
+
+
 #first-div {
   background-size: cover;
   background-attachment: scroll;
@@ -92,7 +101,7 @@ a:active {text-decoration:none;}  /* selected link */
 }
 
 #fourth-div {
-  background-image:url(http://i.imgur.com/bIv1skj.jpg);
+  background-image:url(http://i.imgur.com/vLqyjYt.jpg);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
