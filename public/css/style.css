@@ -220,6 +220,7 @@ a:active {text-decoration:none;}  /* selected link */
 
 .resume {
   color: #66cccc;
+  transition: background-color 0.3s ease;
   background-color: #f2f2f2;
   border-radius: 7px;
   padding: 10px 15px;
