@@ -20,10 +20,12 @@ nav{
 }
 
 .nav-left {
+  padding-left: 30px;
   float: left;
 }
 
 .nav-right {
+  padding-right: 30px;
   float: right;
 }
 
