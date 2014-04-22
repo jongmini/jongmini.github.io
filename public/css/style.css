@@ -18,6 +18,13 @@ nav{
   padding: 5px;
 /*  font-weight: 500;*/
   text-shadow: none;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.nav-right {
   text-align: right;
 }
 
