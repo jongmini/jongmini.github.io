@@ -65,7 +65,7 @@ nav{
 }
 
 .click-here {
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
   background-color: none;
 }
 
@@ -119,10 +119,11 @@ a:active {text-decoration:none;}  /* selected link */
   background-size: cover;
   background-attachment: scroll;
   background-color: #5a6465;
-  color: #f2f2f2;
+  color: #000;
   width: 100%;
-  height: 100px;
+  height: 50px;
   text-align: center;
+  padding-top: 16px;
 }
 
 .profilepic-sm {
