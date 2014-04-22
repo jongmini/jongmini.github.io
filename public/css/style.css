@@ -232,6 +232,7 @@ a:active {text-decoration:none;}  /* selected link */
 
 .resume:hover {
   color: #5a6465;
+  background-color: #66cccc;
 }
 
 a.social.resume {
